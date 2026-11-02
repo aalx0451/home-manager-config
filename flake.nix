@@ -30,6 +30,7 @@
           ./pkgs.nix
           ./programs.nix
           ./waybar.nix
+          ./wayland.nix
           ./zoxide.nix
           ./zsh.nix
         ];
