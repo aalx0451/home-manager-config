@@ -7,6 +7,7 @@
     firefox
     grim
     networkmanagerapplet
+    playerctl
     python3
     swayidle
     swaylock
