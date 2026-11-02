@@ -5,5 +5,6 @@
     file
     firefox
     python3
+    telegram-desktop
   ];
 }
