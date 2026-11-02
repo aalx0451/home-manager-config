@@ -8,6 +8,7 @@
     grim
     networkmanagerapplet
     python3
+    swayidle
     telegram-desktop
     vim
     wl-clipboard
