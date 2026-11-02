@@ -23,6 +23,7 @@
         modules = [
           ./git.nix
           ./home.nix
+          ./kitty.nix
           ./pkgs.nix
           ./programs.nix
         ];
