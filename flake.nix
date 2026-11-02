@@ -23,6 +23,7 @@
         modules = [
           ./home.nix
           ./pkgs.nix
+          ./programs.nix
         ];
       };
     };

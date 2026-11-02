@@ -11,6 +11,4 @@
 
   home.sessionVariables = {
   };
-
-  programs.home-manager.enable = true;
 }
