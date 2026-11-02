@@ -9,6 +9,7 @@
     networkmanagerapplet
     python3
     swayidle
+    swaylock
     telegram-desktop
     vim
     wl-clipboard
