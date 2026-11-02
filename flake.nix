@@ -21,6 +21,7 @@
       homeConfigurations."lina" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [
+          ./dconf.nix
           ./dircolors.nix
           ./git.nix
           ./gtk.nix
