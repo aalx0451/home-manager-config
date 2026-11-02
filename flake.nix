@@ -29,6 +29,7 @@
           ./programs.nix
           ./waybar.nix
           ./zoxide.nix
+          ./zsh.nix
         ];
       };
     };
