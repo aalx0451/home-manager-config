@@ -23,6 +23,7 @@
         modules = [
           ./dircolors.nix
           ./git.nix
+          ./gtk.nix
           ./home.nix
           ./kitty.nix
           ./pkgs.nix
