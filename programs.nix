@@ -4,5 +4,6 @@
     kitty.enable = true;
     home-manager.enable = true;
     waybar.enable = true;
+    zoxide.enable = true;
   };
 }
