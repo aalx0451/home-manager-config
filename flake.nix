@@ -26,6 +26,7 @@
           ./kitty.nix
           ./pkgs.nix
           ./programs.nix
+          ./waybar.nix
         ];
       };
     };
