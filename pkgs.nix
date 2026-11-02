@@ -11,5 +11,6 @@
     telegram-desktop
     vim
     wl-clipboard
+    wmenu
   ];
 }
