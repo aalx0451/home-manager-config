@@ -6,5 +6,6 @@
     firefox
     python3
     telegram-desktop
+    vim
   ];
 }
