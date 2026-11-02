@@ -27,6 +27,7 @@
           ./pkgs.nix
           ./programs.nix
           ./waybar.nix
+          ./zoxide.nix
         ];
       };
     };

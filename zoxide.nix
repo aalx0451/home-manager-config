@@ -1,0 +1,5 @@
+{
+  programs.zoxide = {
+    enableZshIntegration = true;
+  };
+}
