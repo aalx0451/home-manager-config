@@ -1,0 +1,5 @@
+{
+  programs.dircolors = {
+    enableZshIntegration = true;
+  };
+}
