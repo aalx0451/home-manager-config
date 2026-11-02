@@ -21,6 +21,7 @@
       homeConfigurations."lina" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules = [
+          ./git.nix
           ./home.nix
           ./pkgs.nix
           ./programs.nix
