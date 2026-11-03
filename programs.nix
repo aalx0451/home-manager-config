@@ -6,5 +6,6 @@
     home-manager.enable = true;
     waybar.enable = true;
     zoxide.enable = true;
+    zsh.enable = true;
   };
 }
