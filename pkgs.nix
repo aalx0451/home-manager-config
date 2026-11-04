@@ -5,6 +5,7 @@
     with pkgs;
     [
       brightnessctl
+      dua
       file
       firefox
       grim
