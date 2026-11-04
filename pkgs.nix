@@ -21,5 +21,6 @@
     ]
     ++ (with pkgs.llvmPackages; [
       (lib.hiPrio clang)
+      clang-tools
     ]);
 }
