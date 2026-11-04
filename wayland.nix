@@ -78,6 +78,13 @@ in
         }
       ];
 
+      workspaceOutputAssign = [
+        {
+          workspace = "1";
+          output = "*";
+        }
+      ];
+
       keybindings = lib.mkOptionDefault {
         "${mod}+m" = "kill";
         "${mod}+Escape" = "exec ${lockAndSleep}";
