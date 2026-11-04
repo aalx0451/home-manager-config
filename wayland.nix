@@ -7,6 +7,18 @@
 
 let
   mod = "Mod1";
+
+  lockAndSleep = pkgs.writeShellScript "sway-lock-and-sleep" ''
+    ${pkgs.swayidle}/bin/swayidle -w \
+      timeout 1 '${pkgs.sway}/bin/swaymsg "output * power off"' \
+      resume '${pkgs.sway}/bin/swaymsg "output * power on"' &
+    IDLE_PID=$!
+
+    ${pkgs.swaylock}/bin/swaylock -c 000000
+
+    kill $IDLE_PID
+    ${pkgs.sway}/bin/swaymsg "output * power on"
+  '';
 in
 {
   wayland.windowManager.sway = {
@@ -68,7 +80,7 @@ in
 
       keybindings = lib.mkOptionDefault {
         "${mod}+m" = "kill";
-        "${mod}+Escape" = "exec sh -c 'brightnessctl -s set 0% && swaylock -c 000000; brightnessctl -r'";
+        "${mod}+Escape" = "exec ${lockAndSleep}";
         "Print" = "exec grim - | wl-copy";
 
         "--locked XF86AudioMute" = "exec pactl set-sink-mute @DEFAULT_SINK@ toggle";
