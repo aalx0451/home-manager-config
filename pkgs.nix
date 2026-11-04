@@ -16,6 +16,7 @@
       swaylock
       telegram-desktop
       vim
+      wireguard-tools
       wl-clipboard
       wmenu
     ]
