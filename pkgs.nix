@@ -10,6 +10,7 @@
       firefox
       grim
       networkmanagerapplet
+      keepassxc
       playerctl
       python3
       swayidle
