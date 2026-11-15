@@ -39,7 +39,24 @@
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "yukigram": "yukigram"
+      }
+    },
+    "yukigram": {
+      "locked": {
+        "lastModified": 1794568916,
+        "narHash": "sha256-yjWRQ8MliK0bsjVCDNUk4BNIkEVfvAiBG68PFCFHEEw=",
+        "owner": "yukigram",
+        "repo": "yukigram",
+        "rev": "99698495e052627752c1ed54e888ded5f0e4e111",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yukigram",
+        "ref": "release",
+        "repo": "yukigram",
+        "type": "github"
       }
     }
   },

@@ -1,4 +1,9 @@
-{ pkgs, lib, ... }:
+{
+  pkgs,
+  inputs,
+  lib,
+  ...
+}:
 
 {
   home.packages =
@@ -15,7 +20,6 @@
       python3
       swayidle
       swaylock
-      telegram-desktop
       vim
       wireguard-tools
       wl-clipboard
@@ -24,5 +28,8 @@
     ++ (with pkgs.llvmPackages; [
       (lib.hiPrio clang)
       clang-tools
+    ])
+    ++ (with inputs.yukigram.packages.${pkgs.stdenv.hostPlatform.system}; [
+      nixpak
     ]);
 }
