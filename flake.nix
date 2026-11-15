@@ -31,6 +31,7 @@
           ./kitty.nix
           ./pkgs.nix
           ./programs.nix
+          ./services.nix
           ./waybar.nix
           ./wayland.nix
           ./zoxide.nix
