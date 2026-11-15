@@ -13,6 +13,7 @@
       dua
       file
       firefox
+      fractal
       grim
       networkmanagerapplet
       keepassxc
