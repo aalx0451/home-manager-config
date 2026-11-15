@@ -26,6 +26,7 @@
           ./dconf.nix
           ./dircolors.nix
           ./git.nix
+          ./git-credential-keepassxc.nix
           ./gtk.nix
           ./home.nix
           ./kitty.nix
